@@ -620,3 +620,20 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-dog {
+  width: 20%;
+  padding: 5px;  
+}
+
+.img-dog img {
+  height: 145px;
+  width: 100%;
+  object-fit: cover;
+}
